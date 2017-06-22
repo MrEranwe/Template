@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Bare - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar-default" style: "" role="navigation">
+        <div class="container">
+            <!-- Add  the <div>[Something]</div> structure for each header in the navbar-->
+            <div class="navbar-header">               
+                <a class="navbar-brand" href="index.html">Title of the project</a>
+            </div>
+            <div class="navbar-header">
+                <a class="navbar-brand" href="about.html">About</a>
+            </div>
+            <!-- This is for the right part of the navbar. Reserved for Shiplab logo-->
+            <div class="nav navbar-nav navbar-right">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="http://www.shiplab.hials.org/"><img src="barquinho_II.png" style="height:150%"> 
+                    </a>               
+                    <a class="navbar-brand" href="https://www.ntnu.edu/web/guest/home"><img src="logo_ntnu_II.png" style="height:150%"> 
+                    </a>                    
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Page Content -->
+    
+    <!-- Container creates the space -->
+    <div class="container">
+        
+        <!-- Row creates horizontal groups of columns -->
+        <div class="row">
+            
+            <!-- choose horizontal layout in https://www.w3schools.com/bootstrap/bootstrap_grid_examples.asp-->
+            
+            <!-- No divisions in page. Only 1 column. -->
+             <div class="col-md-12 text-center">
+                <h2>Title of the project</h2>
+                <p>Short summary of the app, what it does and how it works.</p>
+            </div>  
+            
+            <!-- 2 divisions in page. 2 column. -->
+            <div class="col-md-6 text-left">
+                <h2>Header 1</h2>
+                <p>Text for Header 1</p>
+            </div>
+            <div class="col-md-6 text-left">
+                <h2>Header 2</h2>
+                <p>Text for Header 2</p>
+            </div>
+        
+        </div>
+        
+        <!-- Another horizontal group. Not necessary, but could help in order to separate the columns. -->
+        <div class="row">
+            
+            <div class="col-md-4 text-left">
+                <h2>Header 3</h2>
+                <p>Text for Header 3</p>
+            </div>
+            <div class="col-md-4 text-left">
+                <h2>Header 4</h2>
+                <p>Text for Header 4</p>
+            </div>
+             <div class="col-md-4 text-left">
+                <h2>Header 5</h2>
+                <p>Text for Header 5</p>
+            </div>           
+        
+        </div>
+        
+        <!-- Another horizontal group.  -->
+        <div class="row">
+            
+            <div class="col-md-6 text-left">
+                <!-- Adding img.jpg. Required class="img-responsive" for working with bootstrap  -->
+                <h2>Figure</h2>
+                <img src="ship.jpg" class="img-responsive">
+            </div>
+            <div class="col-md-6 text-left" id="myDiv" style=" width: 100%; height: 500px">
+            </div>
+
+        </div>          
+        
+
+    </div>
+    <!-- /.container -->
+    <!-- Plot.ly script -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    
+    <!-- Insert own scripts here -->
+    
+    <!-- Script for plot -->
+    <script src="plot.js"></script>    
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
